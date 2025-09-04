@@ -26,6 +26,15 @@
   padding: 15px 20px;
   margin: 0px auto;
 }
+.profile-pic {
+  width: 100px;     
+  height: 100px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 
 .header ul {
   margin: 0;

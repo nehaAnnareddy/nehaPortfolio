@@ -28,10 +28,16 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
-        </a>
+        <img
+          src={require("../../assets/images/profilepic.jpeg")}
+          alt="profile"
+          className="profile-pic"
+        />
+        <span className="grey-color"> &lt;</span>
+        <span className="logo-name">{greeting.username}</span>
+        <span className="grey-color">/&gt;</span>
+      </a>
+
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
